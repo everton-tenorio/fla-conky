@@ -16,4 +16,7 @@ chmod +x fla-conky.sh
 
 ```bash
 ./fla-conky.sh
+
+# Deixo o script no crontab, de 7h até 19h, de hora em hora ele irá atualizar.
+# 0 7-19 * * * /home/.../fla-conky/fla-conky.sh
 ```
