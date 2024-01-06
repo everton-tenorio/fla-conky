@@ -52,9 +52,11 @@ if response.status_code == 200:
     diretorio_atual = os.getcwd()
     for index, path in enumerate(local_emblem_paths):
         if index == 0:
-            content += (f"${{image {diretorio_atual}/{path} -n -p 50,660 -s 22x25}}")
+            content += (f"${{image {diretorio_atual}/{path} -n -p 120,170 -s 22x25}}")
+            # 50, 660
         if index == 1:
-            content += (f"${{image {diretorio_atual}/{path} -n -p 275,660 -s 22x25}}")
+            content += (f"${{image {diretorio_atual}/{path} -n -p 305,170 -s 22x25}}")
+            # 275,660
 
     # Salva o conteúdo no arquivo flamengo-jogos.txt
     with open("flamengo-jogos.txt", "w") as file:
