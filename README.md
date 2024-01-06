@@ -7,6 +7,7 @@ Sabendo que é possível personalizá-lo, adicionei algumas informações refere
 <p align="center">
     <img src="fla-conky.png" />
 </p>
+
 ### fla-conky.sh
 Antes de executar o script, é necessário ter um ambiente virtual do Python
 ```bash 
