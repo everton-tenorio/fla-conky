@@ -65,3 +65,4 @@ if response.status_code == 200:
     print("Arquivo flamengo-jogos.txt criado com sucesso.")
 else:
     print("Erro na requisição HTTP. Código de status:", response.status_code)
+
