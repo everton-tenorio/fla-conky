@@ -4,8 +4,9 @@ O Conky é uma ferramenta de monitoramento de sistema para Linux que exibe infor
 Sabendo que é possível personalizá-lo, adicionei algumas informações referentes ao Flamengo.
 
 ### Próximos jogos e tabela do campeonato
-<img src="fla-conky.png" />
-
+<p align="center">
+    <img src="fla-conky.png" />
+</p>
 ### fla-conky.sh
 Antes de executar o script, é necessário ter um ambiente virtual do Python
 ```bash 
