@@ -5,3 +5,15 @@ Sabendo que é possível personalizá-lo, adicionei algumas informações refere
 
 ### Próximos jogos e tabela do campeonato
 <img src="fla-conky.png" />
+
+### fla-conky.sh
+Antes de executar o script, é necessário ter um ambiente virtual do Python
+```bash 
+python3.11 -m venv venv && \
+source venv/bin/activate && pip install -r requirements.txt && deactivate && \
+chmod +x fla-conky.sh
+```
+
+```bash
+./fla-conky.sh
+```
